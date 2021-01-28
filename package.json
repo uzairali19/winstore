@@ -1,0 +1,51 @@
+{
+  "name": "woo-next",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "svg": "svgr -d src/components/icons src/components/icons/svgs"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.2.5",
+    "@svgr/cli": "^5.5.0",
+    "aws-sdk": "^2.832.0",
+    "body-parser": "^1.19.0",
+    "bunyan": "^1.8.15",
+    "check-types": "^11.1.2",
+    "deepcopy": "^2.1.0",
+    "duck-type": "0.0.17",
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.6",
+    "glob": "^7.1.6",
+    "graphql": "^15.4.0",
+    "handlebars": "^4.7.6",
+    "http-auth": "^4.1.2",
+    "lodash": "^4.17.20",
+    "md5": "^2.3.0",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.32",
+    "multer": "^1.4.2",
+    "next": "10.0.1",
+    "node-fetch": "^2.6.1",
+    "node-stream": "^1.7.0",
+    "nprogress": "^0.2.0",
+    "object-path": "^0.11.5",
+    "randomstring": "^1.1.5",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "sass": "^1.29.0",
+    "uuid": "^8.3.1",
+    "validator": "^13.1.17"
+  },
+  "devDependencies": {
+    "install": "^0.13.0",
+    "postcss-flexbugs-fixes": "^5.0.1",
+    "postcss-import": "^13.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "precss": "^4.0.0",
+    "tailwindcss": "^1.9.6"
+  }
+}
