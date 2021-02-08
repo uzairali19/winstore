@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --port 5000",
     "build": "next build",
     "start": "next start",
     "svg": "svgr -d src/components/icons src/components/icons/svgs"
@@ -11,8 +11,10 @@
   "dependencies": {
     "@apollo/client": "^3.2.5",
     "@svgr/cli": "^5.5.0",
+    "antd": "^4.12.2",
     "aws-sdk": "^2.832.0",
     "body-parser": "^1.19.0",
+    "bootstrap": "^4.6.0",
     "bunyan": "^1.8.15",
     "check-types": "^11.1.2",
     "deepcopy": "^2.1.0",
@@ -25,6 +27,7 @@
     "http-auth": "^4.1.2",
     "lodash": "^4.17.20",
     "md5": "^2.3.0",
+    "mdbreact": "^5.0.1",
     "moment": "^2.29.1",
     "moment-timezone": "^0.5.32",
     "multer": "^1.4.2",
@@ -36,6 +39,7 @@
     "randomstring": "^1.1.5",
     "react": "17.0.1",
     "react-dom": "17.0.1",
+    "react-transition-group": "^4.4.1",
     "sass": "^1.29.0",
     "uuid": "^8.3.1",
     "validator": "^13.1.17"

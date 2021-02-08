@@ -132,3 +132,84 @@
     border-radius: 4px;
   }
 }
+
+//  Dropdown 
+
+.categories-dropdown{
+  border-top: 1px solid rgb(231, 231, 231);
+}
+
+.categories-nav{
+  padding-top: 20px;
+}
+
+.navbar-nav li:hover > ul.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu {
+  position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top:-6px;
+}
+
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+  text-decoration: underline;
+  transform: rotate(-90deg);
+} 
+
+// Search Top Header
+
+.search-bar{
+  border: 1px solid rgb(212, 212, 212);
+  border-radius:10px ;
+  .search-icon{
+    color: #fff;
+    
+  }
+  .search-box{
+    background-color: #27612f;
+    border-top-right-radius:10px ;
+    border-bottom-right-radius:10px ;
+  }
+  .input-group.md-form.form-sm.form-1 input {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+  }
+  input:focus{
+    outline-style: none;
+    box-shadow: none;
+    border: none;
+  }
+}
+
+
+.win-carousel img{
+  width: 100%;
+  // opacity: 0.8;
+  // color: black;
+}
+
+// Product Slider
+
+
+
+// Heading Popular
+
+.heading-popular h1{
+  font-size: 30px;
+  margin-left: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 300;
+}
+
+.navigation a:hover{
+  text-decoration: none;
+}
+.navigation a{
+  padding-left: 10px;
+}
